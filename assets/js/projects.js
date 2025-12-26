@@ -12,7 +12,7 @@ const projects = [
         description:
             "Project that you carry out in the design and structure of the layout, showing the design at the client's request.",
         githubLink: "https://github.com/",
-        dribbbleLink: "#",
+        deployedLink: "#",
     },
     {
         img: "assets/img/project-2.jpg",
@@ -21,7 +21,7 @@ const projects = [
         description:
             "Project that you carry out in the design and structure of the layout, showing the design at the client's request.",
         githubLink: "https://github.com/",
-        dribbbleLink: "#",
+        deployedLink: "#",
     },
     {
         img: "assets/img/project-3.jpg",
@@ -30,7 +30,7 @@ const projects = [
         description:
             "Project that you carry out in the design and structure of the layout, showing the design at the client's request.",
         githubLink: "https://github.com/",
-        dribbbleLink: "#",
+        deployedLink: "#",
     },
 ];
 
@@ -66,8 +66,8 @@ if (projectsContainer) {
          <a href="${project.githubLink}" target="_blank" class="projects__link">
             <i class="ri-github-line"></i> View
          </a>
-         <a href="${project.dribbbleLink}" target="_blank" class="projects__link">
-            <i class="ri-dribbble-line"></i> View
+         <a href="${project.deployedLink}" target="_blank" class="projects__link">
+            <i class="ri-global-line"></i> View
          </a>
       </div>
     `;
