@@ -6,22 +6,23 @@
 
 const projects = [
     {
-        img: "assets/img/project-1.jpg",
-        subtitle: "Website",
-        title: "Somthing here ",
+        img: "assets/img/project-1.jpeg",
+        subtitle: "Graphics Design",
+        title: "Event Poster ",
         description:
-            "Here goes project description .",
+            "RCC TECHZ iot event poster .",
         githubLink: "https://github.com/",
-        deployedLink: "#",
+        deployedLink: "https://www.instagram.com/p/DSsDrzfElwL/",
     },
-    {
-        img: "assets/img/project-2.jpg",
-        subtitle: "App",
-        title: "Yoga App",
+   
+      {
+        img: "assets/img/project-3.jpeg",
+        subtitle: "Website/App",
+        title: "RCC IIT events app",
         description:
-            "Project that you carry out in the design and structure of the layout, showing the design at the client's request.",
-        githubLink: "https://github.com/",
-        deployedLink: "#",
+            "This project was made for my college Hachkathon.This project is still a prototype.",
+        githubLink: "https://github.com/TheSumanBiswas/rcciit-event-nexus-93",
+        deployedLink: "https://rcciitevents.vercel.app/",
     },
 ];
 
